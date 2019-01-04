@@ -20,11 +20,11 @@ public class MainActivity extends AppCompatActivity implements MainContract.View
     public void clickHandler(View view){
         //view should tell presenter that
         //hey presenter someone clicked the button what should i do
-        presenter.onButtonClicked();
+        presenter.onButtonClicked();//step1
     }
 
     @Override
     public void showToast(String message) {
-        Toast.makeText(this,message,Toast.LENGTH_SHORT).show();
+        Toast.makeText(this,message,Toast.LENGTH_SHORT).show();//step8
     }
 }
