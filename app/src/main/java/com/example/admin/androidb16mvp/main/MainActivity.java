@@ -1,9 +1,11 @@
-package com.example.admin.androidb16mvp;
+package com.example.admin.androidb16mvp.main;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Toast;
+
+import com.example.admin.androidb16mvp.R;
 
 public class MainActivity extends AppCompatActivity implements MainContract.View{
     //activity is a view/noticeboard it should be as dumb as possible

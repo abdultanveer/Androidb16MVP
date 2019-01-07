@@ -1,4 +1,4 @@
-package com.example.admin.androidb16mvp;
+package com.example.admin.androidb16mvp.main;
 
 public interface MainContract {
 
